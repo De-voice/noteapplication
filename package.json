@@ -1,0 +1,25 @@
+{
+  "name": "notesapplication",
+  "version": "1.0.0",
+  "description": "a fullstack notes application",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env DEBUG=notes:* node ./app.mjs",
+    "test": "jest"
+  },
+  "keywords": [
+    "notes",
+    "comments"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "http": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
